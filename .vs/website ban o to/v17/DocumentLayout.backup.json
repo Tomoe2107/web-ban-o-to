@@ -1,0 +1,547 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\thongke1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlyuser1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanlyuser1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlydonhang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanlydonhang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlydonhang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanlydonhang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanly1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanly1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\chitiettintuc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\chitietsanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\chitietsanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\chitiettintuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\chitiettintuc.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\chitietsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\chitietsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\tinmuaoto1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\tinmuaoto1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\trangchu1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangky1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\dangky1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangky1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\dangky1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|c:\\users\\tomoe\\music\\website ban o to\\website ban o to\\website ban o to\\trangchu1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\trangchu1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangnhap1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\dangnhap1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlyuser1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanlyuser1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangnhap1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\dangnhap1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\thanhtoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\thanhtoan.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\trangchu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\lienhe1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\lienhe1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\thongke1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanly.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\quanly1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\lienhe1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\lienhe1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E423AA-A636-4B5E-98AF-4BCB7333269B}|website ban o to\\website ban o to.csproj|solutionrelative:website ban o to\\admin\\thongke1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "chitiettintuc.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\chitiettintuc.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.aspx.cs",
+              "RelativeToolTip": "website ban o to\\chitiettintuc.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:18:10.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "trangchu1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\trangchu1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\trangchu1.aspx.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:28:16.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dangnhap1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangnhap1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\dangnhap1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangnhap1.aspx",
+              "RelativeToolTip": "website ban o to\\dangnhap1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T09:58:12.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quanlyuser1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlyuser1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanlyuser1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlyuser1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\admin\\quanlyuser1.aspx.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:24:37.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "quanlyuser1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlyuser1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanlyuser1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlyuser1.aspx",
+              "RelativeToolTip": "website ban o to\\admin\\quanlyuser1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T17:57:22.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "quanly1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanly1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx",
+              "RelativeToolTip": "website ban o to\\admin\\quanly1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T10:23:17.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "quanly1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanly1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\admin\\quanly1.aspx.cs",
+              "ViewState": "AgIAAN4BAAAAAAAAAAAswD0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:19:36.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "quanlydonhang.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlydonhang.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanlydonhang.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlydonhang.aspx",
+              "RelativeToolTip": "website ban o to\\admin\\quanlydonhang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T18:08:01.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quanlydonhang.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlydonhang.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanlydonhang.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanlydonhang.aspx.cs",
+              "RelativeToolTip": "website ban o to\\admin\\quanlydonhang.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwA0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:23:40.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "thongke1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\thongke1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\admin\\thongke1.aspx.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:24:40.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "chitietsanpham.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitietsanpham.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\chitietsanpham.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitietsanpham.aspx",
+              "RelativeToolTip": "website ban o to\\chitietsanpham.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-17T09:11:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "chitietsanpham.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitietsanpham.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\chitietsanpham.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitietsanpham.aspx.cs",
+              "RelativeToolTip": "website ban o to\\chitietsanpham.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:11:37.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tinmuaoto1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\tinmuaoto1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\tinmuaoto1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\tinmuaoto1.aspx",
+              "RelativeToolTip": "website ban o to\\tinmuaoto1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-17T09:51:57.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "chitiettintuc.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\chitiettintuc.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.aspx",
+              "RelativeToolTip": "website ban o to\\chitiettintuc.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-17T09:55:34.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "chitiettintuc.css",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.css",
+              "RelativeDocumentMoniker": "website ban o to\\chitiettintuc.css",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\chitiettintuc.css",
+              "RelativeToolTip": "website ban o to\\chitiettintuc.css",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-17T10:14:09.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dangky1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangky1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\dangky1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangky1.aspx",
+              "RelativeToolTip": "website ban o to\\dangky1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T09:40:01.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dangky1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangky1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\dangky1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangky1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\dangky1.aspx.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAwwN0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:40:04.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "trangchu1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\trangchu1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu1.aspx",
+              "RelativeToolTip": "website ban o to\\trangchu1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T09:29:14.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "thanhtoan.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\thanhtoan.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\thanhtoan.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\thanhtoan.aspx.cs",
+              "RelativeToolTip": "website ban o to\\thanhtoan.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:25:45.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dangnhap1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangnhap1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\dangnhap1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\dangnhap1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\dangnhap1.aspx.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T09:35:30.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "trangchu.css",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu.css",
+              "RelativeDocumentMoniker": "website ban o to\\trangchu.css",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\trangchu.css",
+              "RelativeToolTip": "website ban o to\\trangchu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-15T09:57:56.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "lienhe1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\lienhe1.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\lienhe1.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\lienhe1.aspx.cs",
+              "RelativeToolTip": "website ban o to\\lienhe1.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:08:59.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "giohang.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\giohang.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\giohang.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\giohang.aspx.cs",
+              "RelativeToolTip": "website ban o to\\giohang.aspx.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:25:34.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Contact.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\Contact.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\Contact.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\Contact.aspx.cs",
+              "RelativeToolTip": "website ban o to\\Contact.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:24:48.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "About.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\About.aspx.cs",
+              "RelativeDocumentMoniker": "website ban o to\\About.aspx.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\About.aspx.cs",
+              "RelativeToolTip": "website ban o to\\About.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:24:11.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "thongke1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\thongke1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx",
+              "RelativeToolTip": "website ban o to\\admin\\thongke1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T18:08:23.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "quanly1.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx.designer.cs",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanly1.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly1.aspx.designer.cs",
+              "RelativeToolTip": "website ban o to\\admin\\quanly1.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:28:17.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "quanly.css",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly.css",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\quanly.css",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\quanly.css",
+              "RelativeToolTip": "website ban o to\\admin\\quanly.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-15T18:07:47.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "lienhe1.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\lienhe1.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\lienhe1.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\lienhe1.aspx",
+              "RelativeToolTip": "website ban o to\\lienhe1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T10:08:54.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\About.aspx",
+              "RelativeDocumentMoniker": "website ban o to\\About.aspx",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\About.aspx",
+              "RelativeToolTip": "website ban o to\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-15T10:07:17.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "thongke1.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx.designer.cs",
+              "RelativeDocumentMoniker": "website ban o to\\admin\\thongke1.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\Tomoe\\Music\\website ban o to\\website ban o to\\website ban o to\\admin\\thongke1.aspx.designer.cs",
+              "RelativeToolTip": "website ban o to\\admin\\thongke1.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:57:51.878Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

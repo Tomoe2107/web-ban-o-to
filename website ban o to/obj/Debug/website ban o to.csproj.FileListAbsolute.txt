@@ -1,0 +1,292 @@
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\website ban o to.dll.config
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\website ban o to.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\website ban o to.pdb
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\csc.exe
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\csc.exe.config
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\csc.rsp
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\csi.exe
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\csi.exe.config
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\csi.rsp
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.AppContext.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Collections.Immutable.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Console.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Globalization.Calendars.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Net.Http.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Net.Sockets.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.ValueTuple.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\vbc.exe
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\vbc.exe.config
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\vbc.rsp
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe.config
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Antlr3.Runtime.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.Web.Infrastructure.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Newtonsoft.Json.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\System.Web.Optimization.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\WebGrease.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\System.Web.Optimization.xml
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Newtonsoft.Json.xml
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Antlr3.Runtime.pdb
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.AssemblyReference.cache
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.CoreCompileInputs.cache
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\obj\Debug\website .9DF1144B.Up2Date
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\obj\Debug\website ban o to.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to\website ban o to\obj\Debug\website ban o to.pdb
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to - Sao chép\website ban o to\obj\Debug\website ban o to.csproj.AssemblyReference.cache
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to - Sao chép\website ban o to\obj\Debug\website ban o to.csproj.CoreCompileInputs.cache
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to - Sao chép\website ban o to\obj\Debug\website ban o to.dll
+D:\Tài liệu (D)\Nhóm 1_bài tập lớn_PT web nâng cao\website ban o to - Sao chép\website ban o to\obj\Debug\website ban o to.pdb
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\obj\Debug\website ban o to.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\obj\Debug\website ban o to.pdb
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\website ban o to.dll.config
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\website ban o to.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\website ban o to.pdb
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\csc.exe
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\csc.exe.config
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\csc.rsp
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\csi.exe
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\csi.exe.config
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\csi.rsp
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.AppContext.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Console.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Net.Http.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Net.Sockets.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.ValueTuple.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\vbc.exe
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\vbc.exe.config
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\vbc.rsp
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\WebGrease.dll
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\OneDrive\Máy tính\website ban o to\website ban o to\obj\Debug\website .9DF1144B.Up2Date
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\website ban o to.dll.config
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\website ban o to.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\website ban o to.pdb
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\csc.exe
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\csc.exe.config
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\csc.rsp
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\csi.exe
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\csi.exe.config
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\csi.rsp
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.AppContext.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Console.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Net.Http.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Net.Sockets.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.ValueTuple.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\vbc.exe
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\vbc.exe.config
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\vbc.rsp
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Antlr3.Runtime.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Newtonsoft.Json.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\System.Web.Optimization.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\WebGrease.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\System.Web.Optimization.xml
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Newtonsoft.Json.xml
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Antlr3.Runtime.pdb
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\phong\source\repos\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\phong\source\repos\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.AssemblyReference.cache
+C:\Users\phong\source\repos\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.CoreCompileInputs.cache
+C:\Users\phong\source\repos\website ban o to\website ban o to\obj\Debug\website .9DF1144B.Up2Date
+C:\Users\phong\source\repos\website ban o to\website ban o to\obj\Debug\website ban o to.dll
+C:\Users\phong\source\repos\website ban o to\website ban o to\obj\Debug\website ban o to.pdb
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\website ban o to.dll.config
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\website ban o to.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\website ban o to.pdb
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\csc.exe
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\csc.exe.config
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\csc.rsp
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\csi.exe
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\csi.exe.config
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\csi.rsp
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.AppContext.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Console.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Net.Http.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\vbc.exe
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\vbc.exe.config
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\vbc.rsp
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Antlr3.Runtime.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Newtonsoft.Json.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\System.Web.Optimization.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\WebGrease.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\System.Web.Optimization.xml
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Newtonsoft.Json.xml
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Antlr3.Runtime.pdb
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.AssemblyReference.cache
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\obj\Debug\website ban o to.csproj.CoreCompileInputs.cache
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\obj\Debug\website .9DF1144B.Up2Date
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\obj\Debug\website ban o to.dll
+C:\Users\Tomoe\Music\website ban o to\website ban o to\website ban o to\obj\Debug\website ban o to.pdb

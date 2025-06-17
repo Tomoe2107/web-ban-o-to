@@ -1,0 +1,40 @@
+﻿.sell-form {
+    background-color: #f9f9f9;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+    .sell-form .form-group {
+        margin-bottom: 16px;
+    }
+
+    .sell-form label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    .sell-form .form-control {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+.btn-submit {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message-label {
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+}
