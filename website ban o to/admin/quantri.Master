@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="quantri.master.cs" Inherits="website_ban_o_to.admin.quantri" %>
+
+<%@ Register Src="~/UC_Header.ascx" TagPrefix="uc" TagName="header" %>
+<%@ Register Src="~/UC_footer.ascx" TagPrefix="uc" TagName="footer" %>
+<%@ Register Src="~/uc_menu.ascx" TagPrefix="uc" TagName="uc_menu" %>
+<%@ Register Src="~/admin/uc_menu_Admin.ascx" TagPrefix="uc" TagName="menuadmin" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Website bán ô tô</title>
+    <link href="~/admin/quanly.css" rel="stylesheet" type="text/css" runat="server" />
+    <link href="~/trangchu.css" rel="stylesheet" type="text/css" runat="server" />
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <uc:header ID="ucHeader" runat="server" />
+        <uc:uc_menu ID="ucMenu" runat="server" />
+        <uc:menuadmin ID="ucMenuAdmin" runat="server" />
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+
+        <uc:footer ID="ucFooter" runat="server" />
+    </form>
+</body>
+</html>

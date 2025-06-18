@@ -1,0 +1,29 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.vsidx
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.tlb
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.pdb
+*.cache
+*.dll
+*.exe
+
+# ASP.NET specific
+App_Data/
+Temporary ASP.NET Files/
+
+# Windows files
+Thumbs.db
+Desktop.ini
