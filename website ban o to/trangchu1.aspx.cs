@@ -51,22 +51,23 @@ namespace website_ban_o_to
                 // Kiểm tra multiple login attempt
                 CheckMultipleLoginAttempt();
 
-                if (!IsPostBack)
-                {
-                    LogMessage("Page_Load: Khởi tạo trang");
+                // LUÔN LUÔN refresh dữ liệu mỗi khi load page
+                LogMessage("Page_Load: Refreshing data from database");
 
-                    // Kiểm tra trạng thái đăng nhập
-                    CheckLoginStatus();
+                // Kiểm tra trạng thái đăng nhập
+                CheckLoginStatus();
 
-                    // Load dữ liệu từ database
-                    LoadBrandsFromDatabase();
-                    LoadLocationsFromDatabase();
+                // CLEAR cache và load lại data từ database
+                ClearCachedData();
 
-                    // Hiển thị tất cả xe
-                    DisplayCars(CachedCars);
+                // Load fresh data từ database
+                LoadBrandsFromDatabase();
+                LoadLocationsFromDatabase();
 
-                    LogMessage($"Page_Load: Hoàn thành. Loaded {CachedCars.Count} cars");
-                }
+                // Refresh cars data và display
+                RefreshCarsData();
+
+                LogMessage($"Page_Load: Completed with fresh data. Loaded {CachedCars.Count} cars");
             }
             catch (Exception ex)
             {
@@ -75,6 +76,40 @@ namespace website_ban_o_to
             }
         }
 
+        // Method mới để clear cached data
+        private void ClearCachedData()
+        {
+            // Clear cars cache
+            Session.Remove(SESSION_CARS);
+
+            // Clear other cached data if any
+            ViewState.Clear();
+
+            LogMessage("Cleared all cached data");
+        }
+
+        // Method mới để refresh cars data
+        private void RefreshCarsData()
+        {
+            try
+            {
+                // Force reload từ database
+                var freshCars = LoadCarsFromDatabase();
+
+                // Update cache với data mới
+                CachedCars = freshCars;
+
+                // Display fresh data
+                DisplayCars(CachedCars);
+
+                LogMessage($"RefreshCarsData: Loaded {freshCars.Count} fresh cars from database");
+            }
+            catch (Exception ex)
+            {
+                LogError("RefreshCarsData", ex);
+                ShowMessage("Không thể refresh dữ liệu xe.", "error");
+            }
+        }
         protected void Page_PreRender(object sender, EventArgs e)
         {
             // Đảm bảo trạng thái UI đúng
@@ -1176,7 +1211,20 @@ namespace website_ban_o_to
             public string DisplayText { get; set; } = "";
             public bool IsCurrent { get; set; } = false;
         }
+        public void ForceRefreshData()
+        {
+            ClearCachedData();
+            RefreshCarsData();
+        }
 
+        // Override Page_PreInit để clear cache nếu cần
+        protected override void OnPreInit(EventArgs e)
+        {
+            base.OnPreInit(e);
+
+            // Có thể clear cache ở đây nếu muốn
+            // ClearCachedData();
+        }
         #endregion
     }
 }

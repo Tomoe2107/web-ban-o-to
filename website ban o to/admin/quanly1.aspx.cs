@@ -80,6 +80,7 @@ namespace website_ban_o_to.admin
             }
             return cars;
         }
+
         private Car GetCarById(int carId)
         {
             try
@@ -99,10 +100,15 @@ namespace website_ban_o_to.admin
                                 {
                                     CarID = Convert.ToInt32(reader["CarID"]),
                                     BrandID = Convert.ToInt32(reader["BrandID"]),
+                                    LocationID = reader["LocationID"] != DBNull.Value ? (int?)Convert.ToInt32(reader["LocationID"]) : null,
                                     CarName = reader["CarName"].ToString(),
                                     Price = Convert.ToDecimal(reader["Price"]),
                                     Description = reader["Description"]?.ToString(),
-                                    IsDisplay = Convert.ToBoolean(reader["IsDisplay"])
+                                    Year = reader["Year"] != DBNull.Value ? (int?)Convert.ToInt32(reader["Year"]) : null,
+                                    IsAvailable = reader["IsAvailable"] != DBNull.Value ? Convert.ToBoolean(reader["IsAvailable"]) : true,
+                                    IsDisplay = Convert.ToBoolean(reader["IsDisplay"]),
+                                    CreatedDate = Convert.ToDateTime(reader["CreatedDate"]),
+                                    UpdatedDate = reader["UpdatedDate"] != DBNull.Value ? (DateTime?)Convert.ToDateTime(reader["UpdatedDate"]) : null
                                 };
                             }
                         }
@@ -133,9 +139,18 @@ namespace website_ban_o_to.admin
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string sql = @"SELECT CarID, CarName, Price, IsDisplay, CreatedDate FROM Cars 
-                                  WHERE IsDisplay = 1 AND (CarName LIKE @Keyword OR Description LIKE @Keyword)
-                                  ORDER BY CreatedDate DESC";
+                    string sql = @"
+                SELECT 
+                    c.CarID, 
+                    c.CarName, 
+                    c.Price, 
+                    c.IsDisplay, 
+                    c.CreatedDate,
+                    COALESCE(ci.ImagePath, '~/images/no-image.png') as ImagePath
+                FROM Cars c 
+                LEFT JOIN CarImages ci ON c.CarID = ci.CarID AND ci.IsMain = 1
+                WHERE c.IsDisplay = 1 AND (c.CarName LIKE @Keyword OR c.Description LIKE @Keyword)
+                ORDER BY c.CreatedDate DESC";
 
                     using (SqlCommand cmd = new SqlCommand(sql, conn))
                     {
@@ -151,7 +166,7 @@ namespace website_ban_o_to.admin
                                     Price = Convert.ToDecimal(reader["Price"]),
                                     IsDisplay = Convert.ToBoolean(reader["IsDisplay"]),
                                     CreatedDate = Convert.ToDateTime(reader["CreatedDate"]),
-                                    ImagePath = "~/images/no-image.png" // Default image path
+                                    ImagePath = reader["ImagePath"].ToString()
                                 });
                             }
                         }
@@ -187,15 +202,29 @@ namespace website_ban_o_to.admin
             {
                 Car car = new Car
                 {
-                    BrandID = 1, // Default brand
+                    BrandID = 1, // Default brand - có thể thay đổi thành dropdown
+                    LocationID = null, // Có thể thêm dropdown chọn location
                     CarName = txtTenXe.Text.Trim(),
                     Price = Convert.ToDecimal(txtGia.Text.Trim()),
                     Description = txtMoTa.Text.Trim(),
+                    Year = null, // Có thể thêm field năm sản xuất
+                    IsAvailable = true,
                     IsDisplay = chkTrangThai.Checked,
                     CreatedDate = DateTime.Now
                 };
 
-                InsertCar(car);
+                int newCarId = InsertCar(car);
+
+                // Xử lý upload ảnh sau khi thêm xe thành công
+                if (fuHinhAnh.HasFile && newCarId > 0)
+                {
+                    string imagePath = SaveCarImage(fuHinhAnh);
+                    if (!string.IsNullOrEmpty(imagePath))
+                    {
+                        InsertCarImage(newCarId, imagePath, car.CarName, true);
+                    }
+                }
+
                 HideAllPanels();
                 BindGridView();
                 ShowMessage("Thêm xe mới thành công!");
@@ -206,23 +235,29 @@ namespace website_ban_o_to.admin
             }
         }
 
-        private void InsertCar(Car car)
+        private int InsertCar(Car car)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO Cars (BrandID, CarName, Price, Description, IsAvailable, IsDisplay, CreatedDate)
-                              VALUES (@BrandID, @CarName, @Price, @Description, 1, @IsDisplay, @CreatedDate)";
+                string sql = @"INSERT INTO Cars (BrandID, LocationID, CarName, Price, Description, Year, IsAvailable, IsDisplay, CreatedDate)
+                              VALUES (@BrandID, @LocationID, @CarName, @Price, @Description, @Year, @IsAvailable, @IsDisplay, @CreatedDate);
+                              SELECT SCOPE_IDENTITY();";
 
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@BrandID", car.BrandID);
+                    cmd.Parameters.AddWithValue("@LocationID", (object)car.LocationID ?? DBNull.Value);
                     cmd.Parameters.AddWithValue("@CarName", car.CarName);
                     cmd.Parameters.AddWithValue("@Price", car.Price);
                     cmd.Parameters.AddWithValue("@Description", car.Description ?? "");
+                    cmd.Parameters.AddWithValue("@Year", (object)car.Year ?? DBNull.Value);
+                    cmd.Parameters.AddWithValue("@IsAvailable", car.IsAvailable);
                     cmd.Parameters.AddWithValue("@IsDisplay", car.IsDisplay);
                     cmd.Parameters.AddWithValue("@CreatedDate", car.CreatedDate);
-                    cmd.ExecuteNonQuery();
+
+                    object result = cmd.ExecuteScalar();
+                    return Convert.ToInt32(result);
                 }
             }
         }
@@ -232,29 +267,93 @@ namespace website_ban_o_to.admin
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"UPDATE Cars SET CarName = @CarName, Price = @Price, Description = @Description, 
-                              IsDisplay = @IsDisplay, UpdatedDate = @UpdatedDate WHERE CarID = @CarID";
+                string sql = @"UPDATE Cars SET 
+                              CarName = @CarName, 
+                              Price = @Price, 
+                              Description = @Description, 
+                              Year = @Year,
+                              IsAvailable = @IsAvailable,
+                              IsDisplay = @IsDisplay, 
+                              UpdatedDate = @UpdatedDate 
+                              WHERE CarID = @CarID";
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@CarID", car.CarID);
                     cmd.Parameters.AddWithValue("@CarName", car.CarName);
                     cmd.Parameters.AddWithValue("@Price", car.Price);
                     cmd.Parameters.AddWithValue("@Description", car.Description ?? "");
+                    cmd.Parameters.AddWithValue("@Year", (object)car.Year ?? DBNull.Value);
+                    cmd.Parameters.AddWithValue("@IsAvailable", car.IsAvailable);
                     cmd.Parameters.AddWithValue("@IsDisplay", car.IsDisplay);
                     cmd.Parameters.AddWithValue("@UpdatedDate", DateTime.Now);
                     cmd.ExecuteNonQuery();
                 }
-                 
             }
         }
-        private void CarImages(int carID, string imagePath, string imageName = null, bool isMain = false)
+
+        // Phương thức lưu ảnh xe
+        private string SaveCarImage(FileUpload fileUpload)
+        {
+            if (fileUpload.HasFile)
+            {
+                string fileName = Path.GetFileName(fileUpload.FileName);
+                string fileExtension = Path.GetExtension(fileName).ToLower();
+
+                // Kiểm tra định dạng file
+                if (fileExtension == ".jpg" || fileExtension == ".jpeg" || fileExtension == ".png" || fileExtension == ".gif")
+                {
+                    string uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
+                    string uploadPath = Server.MapPath("~/images/cars/");
+
+                    // Tạo thư mục nếu chưa có
+                    if (!Directory.Exists(uploadPath))
+                    {
+                        Directory.CreateDirectory(uploadPath);
+                    }
+
+                    string fullPath = Path.Combine(uploadPath, uniqueFileName);
+                    fileUpload.SaveAs(fullPath);
+                    return "~/images/cars/" + uniqueFileName;
+                }
+                else
+                {
+                    ShowMessage("Chỉ chấp nhận file ảnh có định dạng: jpg, jpeg, png, gif");
+                }
+            }
+            return "";
+        }
+
+        // Phương thức thêm ảnh xe vào database
+        private void InsertCarImage(int carID, string imagePath, string imageName = null, bool isMain = false)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                var insertQuery = @"INSERT INTO CarImages (CarID, ImagePath, ImageName, IsMain, CreatedDate) 
+                           VALUES (@CarID, @ImagePath, @ImageName, @IsMain, @CreatedDate)";
+
+                using (SqlCommand insertCmd = new SqlCommand(insertQuery, conn))
+                {
+                    insertCmd.Parameters.AddWithValue("@CarID", carID);
+                    insertCmd.Parameters.AddWithValue("@ImagePath", imagePath);
+                    insertCmd.Parameters.AddWithValue("@ImageName", imageName ?? "");
+                    insertCmd.Parameters.AddWithValue("@IsMain", isMain);
+                    insertCmd.Parameters.AddWithValue("@CreatedDate", DateTime.Now);
+
+                    insertCmd.ExecuteNonQuery();
+                }
+            }
+        }
+
+        // Phương thức cập nhật ảnh xe
+        private void UpdateCarImage(int carID, string imagePath, string imageName = null, bool isMain = false)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
                 // Kiểm tra xem carID đã tồn tại trong CarImages chưa
-                var checkQuery = @"SELECT COUNT(*) FROM CarImages WHERE CarID = @CarID";
+                var checkQuery = @"SELECT COUNT(*) FROM CarImages WHERE CarID = @CarID AND IsMain = 1";
 
                 using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
                 {
@@ -263,29 +362,17 @@ namespace website_ban_o_to.admin
 
                     if (count == 0)
                     {
-                        // Chưa có -> Thêm mới
-                        var insertQuery = @"INSERT INTO CarImages (CarID, ImagePath, ImageName, IsMain, CreatedDate) 
-                                   VALUES (@CarID, @ImagePath, @ImageName, @IsMain, @CreatedDate)";
-
-                        using (SqlCommand insertCmd = new SqlCommand(insertQuery, conn))
-                        {
-                            insertCmd.Parameters.AddWithValue("@CarID", carID);
-                            insertCmd.Parameters.AddWithValue("@ImagePath", imagePath);
-                            insertCmd.Parameters.AddWithValue("@ImageName", imageName ?? "");
-                            insertCmd.Parameters.AddWithValue("@IsMain", isMain);
-                            insertCmd.Parameters.AddWithValue("@CreatedDate", DateTime.Now);
-
-                            insertCmd.ExecuteNonQuery();
-                        }
+                        // Chưa có ảnh chính -> Thêm mới
+                        InsertCarImage(carID, imagePath, imageName, isMain);
                     }
                     else
                     {
-                        // Đã có -> Cập nhật
+                        // Đã có ảnh chính -> Cập nhật
                         var updateQuery = @"UPDATE CarImages 
                                    SET ImagePath = @ImagePath, 
                                        ImageName = @ImageName, 
-                                       IsMain = @IsMain 
-                                   WHERE CarID = @CarID";
+                                       IsMain = @IsMain
+                                   WHERE CarID = @CarID AND IsMain = 1";
 
                         using (SqlCommand updateCmd = new SqlCommand(updateQuery, conn))
                         {
@@ -300,6 +387,7 @@ namespace website_ban_o_to.admin
                 }
             }
         }
+
         protected void btnHuy_Click(object sender, EventArgs e)
         {
             HideAllPanels();
@@ -326,11 +414,8 @@ namespace website_ban_o_to.admin
 
                 TextBox txtTenXeEdit = (TextBox)gvXe.Rows[e.RowIndex].FindControl("txtTenXe");
                 TextBox txtGiaEdit = (TextBox)gvXe.Rows[e.RowIndex].FindControl("txtGia");
-                string imagePath = "";
-                if (fuHinhAnhTinTuc.HasFile)
-                {
-                    imagePath = SaveNewsImage();
-                }
+                FileUpload fuHinhAnhEdit = (FileUpload)gvXe.Rows[e.RowIndex].FindControl("fuHinhAnh");
+
                 if (txtTenXeEdit != null && txtGiaEdit != null)
                 {
                     Car car = GetCarById(carId);
@@ -338,8 +423,19 @@ namespace website_ban_o_to.admin
                     {
                         car.CarName = txtTenXeEdit.Text.Trim();
                         car.Price = Convert.ToDecimal(txtGiaEdit.Text.Trim());
+                        car.UpdatedDate = DateTime.Now;
                         UpdateCar(car);
-                        CarImages(carId, imagePath, car.CarName,true);
+
+                        // Xử lý upload ảnh nếu có
+                        if (fuHinhAnhEdit != null && fuHinhAnhEdit.HasFile)
+                        {
+                            string imagePath = SaveCarImage(fuHinhAnhEdit);
+                            if (!string.IsNullOrEmpty(imagePath))
+                            {
+                                UpdateCarImage(carId, imagePath, car.CarName, true);
+                            }
+                        }
+
                         ShowMessage("Cập nhật thành công!");
                     }
                 }
@@ -424,11 +520,14 @@ namespace website_ban_o_to.admin
                 {
                     Title = txtTieuDe.Text.Trim(),
                     Slug = CreateSlug(txtTieuDe.Text.Trim()),
+                    Summary = "", // Có thể thêm field tóm tắt
                     Content = txtNoiDung.Text.Trim(),
                     ImagePath = imagePath,
                     IsPublished = chkTinTucHienThi.Checked,
+                    PublishedDate = DateTime.Now,
                     CreatedBy = 1, // Default admin user
-                    CreatedDate = DateTime.Now
+                    CreatedDate = DateTime.Now,
+                    UpdatedDate = null
                 };
 
                 InsertNews(news);
@@ -460,7 +559,11 @@ namespace website_ban_o_to.admin
 
                     string fullPath = Path.Combine(uploadPath, uniqueFileName);
                     fuHinhAnhTinTuc.SaveAs(fullPath);
-                    return "/images/news/" + uniqueFileName;
+                    return "~/images/news/" + uniqueFileName;
+                }
+                else
+                {
+                    ShowMessage("Chỉ chấp nhận file ảnh có định dạng: jpg, jpeg, png, gif");
                 }
             }
             return "";
@@ -468,7 +571,14 @@ namespace website_ban_o_to.admin
 
         private string CreateSlug(string title)
         {
-            return title.ToLower().Replace(" ", "-").Replace("--", "-");
+            if (string.IsNullOrEmpty(title))
+                return "";
+
+            // Tạo slug đơn giản - có thể cải thiện thêm
+            return title.ToLower()
+                       .Replace(" ", "-")
+                       .Replace("--", "-")
+                       .Trim('-');
         }
 
         private void InsertNews(News news)
@@ -476,19 +586,21 @@ namespace website_ban_o_to.admin
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string sql = @"INSERT INTO News (Title, Slug, Content, ImagePath, IsPublished, CreatedBy, CreatedDate, PublishedDate)
-                              VALUES (@Title, @Slug, @Content, @ImagePath, @IsPublished, @CreatedBy, @CreatedDate, @PublishedDate)";
+                string sql = @"INSERT INTO News (Title, Slug, Summary, Content, ImagePath, IsPublished, PublishedDate, CreatedBy, CreatedDate, UpdatedDate)
+                              VALUES (@Title, @Slug, @Summary, @Content, @ImagePath, @IsPublished, @PublishedDate, @CreatedBy, @CreatedDate, @UpdatedDate)";
 
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@Title", news.Title);
                     cmd.Parameters.AddWithValue("@Slug", news.Slug);
+                    cmd.Parameters.AddWithValue("@Summary", news.Summary ?? "");
                     cmd.Parameters.AddWithValue("@Content", news.Content);
                     cmd.Parameters.AddWithValue("@ImagePath", news.ImagePath ?? "");
                     cmd.Parameters.AddWithValue("@IsPublished", news.IsPublished);
+                    cmd.Parameters.AddWithValue("@PublishedDate", news.PublishedDate);
                     cmd.Parameters.AddWithValue("@CreatedBy", news.CreatedBy);
                     cmd.Parameters.AddWithValue("@CreatedDate", news.CreatedDate);
-                    cmd.Parameters.AddWithValue("@PublishedDate", news.CreatedDate);
+                    cmd.Parameters.AddWithValue("@UpdatedDate", (object)news.UpdatedDate ?? DBNull.Value);
                     cmd.ExecuteNonQuery();
                 }
             }
