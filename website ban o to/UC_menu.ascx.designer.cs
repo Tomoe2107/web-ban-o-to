@@ -15,6 +15,24 @@ namespace website_ban_o_to
     {
 
         /// <summary>
+        /// lblUserInfo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblUserInfo;
+
+        /// <summary>
+        /// lnkDangXuat control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button lnkDangXuat;
+
+        /// <summary>
         /// lnkDangNhap control.
         /// </summary>
         /// <remarks>
@@ -22,6 +40,15 @@ namespace website_ban_o_to
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkDangNhap;
+
+        /// <summary>
+        /// separator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl separator1;
 
         /// <summary>
         /// lnkDangKy control.
@@ -40,6 +67,15 @@ namespace website_ban_o_to
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkLienHe;
+
+        /// <summary>
+        /// adminSeparator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl adminSeparator;
 
         /// <summary>
         /// lnkQuanLy control.
@@ -85,5 +121,14 @@ namespace website_ban_o_to
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink lnkCanMua;
+
+        /// <summary>
+        /// spanCartBadge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl spanCartBadge;
     }
 }

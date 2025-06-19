@@ -395,7 +395,7 @@
                 
                 <div class="summary-item">
                     <label>💰 Tổng doanh thu:</label>
-                    <asp:Label ID="lblTongDoanhThu" runat="server" CssClass="summary-value highlight-currency" Text="0 VNĐ" />
+                    <asp:Label ID="lblTongDoanhThu" runat="server" CssClass="summary-value highlight-currency" Text="0 triệu" />
                 </div>
                 
                 <div class="summary-item">
@@ -405,12 +405,12 @@
                 
                 <div class="summary-item">
                     <label>📈 Đơn hàng cao nhất:</label>
-                    <asp:Label ID="lblDonHangCaoNhat" runat="server" CssClass="summary-value" Text="0 VNĐ" />
+                    <asp:Label ID="lblDonHangCaoNhat" runat="server" CssClass="summary-value" Text="0 triệu" />
                 </div>
                 
                 <div class="summary-item">
                     <label>📉 Đơn hàng thấp nhất:</label>
-                    <asp:Label ID="lblDonHangThapNhat" runat="server" CssClass="summary-value" Text="0 VNĐ" />
+                    <asp:Label ID="lblDonHangThapNhat" runat="server" CssClass="summary-value" Text="0 triệu" />
                 </div>
             </div>
         </div>
@@ -424,7 +424,7 @@
                     <asp:BoundField DataField="MaDon" HeaderText="Mã đơn hàng" />
                     <asp:BoundField DataField="NgayDat" HeaderText="Ngày đặt" DataFormatString="{0:dd/MM/yyyy HH:mm}" />
                     <asp:BoundField DataField="KhachHang" HeaderText="Khách hàng" />
-                    <asp:BoundField DataField="TongTien" HeaderText="Tổng tiền" DataFormatString="{0:N0} VNĐ" />
+                    <asp:BoundField DataField="TongTien" HeaderText="Tổng tiền" DataFormatString="{0:N0} triệu" />
                     <asp:BoundField DataField="TrangThai" HeaderText="Trạng thái" />
                 </Columns>
                 <PagerStyle CssClass="grid-pager" />
@@ -450,7 +450,7 @@
                     </asp:TemplateField>
                     <asp:BoundField DataField="TenXe" HeaderText="Tên xe" />
                     <asp:BoundField DataField="SoLuong" HeaderText="Số lượng bán" DataFormatString="{0:N0}" />
-                    <asp:BoundField DataField="DoanhThu" HeaderText="Doanh thu" DataFormatString="{0:N0} VNĐ" />
+                    <asp:BoundField DataField="DoanhThu" HeaderText="Doanh thu" DataFormatString="{0:N0} triệu" />
                 </Columns>
                 <EmptyDataTemplate>
                     <div style="text-align: center; padding: 30px; color: #666; font-style: italic;">

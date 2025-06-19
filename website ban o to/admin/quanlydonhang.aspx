@@ -219,14 +219,14 @@
             
             <div class="stat-card revenue">
                 <div class="stat-number" style="font-size: 1.5em;">
-                    <asp:Label ID="lblTongDoanhThu" runat="server" Text="0 VNĐ" />
+                    <asp:Label ID="lblTongDoanhThu" runat="server" Text="0 triệu" />
                 </div>
                 <div class="stat-label">Tổng doanh thu</div>
             </div>
             
             <div class="stat-card revenue">
                 <div class="stat-number" style="font-size: 1.5em;">
-                    <asp:Label ID="lblDoanhThuThanhCong" runat="server" Text="0 VNĐ" />
+                    <asp:Label ID="lblDoanhThuThanhCong" runat="server" Text="0 triệu" />
                 </div>
                 <div class="stat-label">Doanh thu thành công</div>
             </div>
@@ -288,7 +288,7 @@
                     <asp:BoundField DataField="CustomerName" HeaderText="Khách hàng" />
                     <asp:BoundField DataField="CustomerPhone" HeaderText="Số điện thoại" />
                     <asp:BoundField DataField="TotalAmount" HeaderText="Tổng tiền" 
-                        DataFormatString="{0:N0} VNĐ" />
+                        DataFormatString="{0:N0} triệu" />
                     <asp:BoundField DataField="OrderStatus" HeaderText="Trạng thái" />
                     <asp:BoundField DataField="DeliveryDate" HeaderText="Ngày giao" 
                         DataFormatString="{0:dd/MM/yyyy}" NullDisplayText="Chưa giao" />
@@ -330,7 +330,7 @@
                     </asp:TemplateField>
                     <asp:BoundField DataField="SoDonHang" HeaderText="Số đơn hàng" />
                     <asp:BoundField DataField="DoanhThu" HeaderText="Doanh thu" 
-                        DataFormatString="{0:N0} VNĐ" />
+                        DataFormatString="{0:N0} triệu" />
                 </Columns>
                 
                 <EmptyDataTemplate>

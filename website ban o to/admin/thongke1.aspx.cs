@@ -240,10 +240,10 @@ namespace website_ban_o_to.admin
                     thapNhat = Math.Min(thapNhat, doanhThu);
             }
 
-            lblTongDoanhThu.Text = tongDoanhThu.ToString("N0") + " VNĐ";
+            lblTongDoanhThu.Text = tongDoanhThu.ToString("N0") + " triệu";
             lblTongDonHang.Text = tongDonHang.ToString();
-            lblDonHangCaoNhat.Text = (caoNhat == 0 ? "0" : caoNhat.ToString("N0")) + " VNĐ";
-            lblDonHangThapNhat.Text = (thapNhat == decimal.MaxValue ? "0" : thapNhat.ToString("N0")) + " VNĐ";
+            lblDonHangCaoNhat.Text = (caoNhat == 0 ? "0" : caoNhat.ToString("N0")) + " triệu";
+            lblDonHangThapNhat.Text = (thapNhat == decimal.MaxValue ? "0" : thapNhat.ToString("N0")) + " triệu";
         }
 
         private DataTable LayChiTietDonHang(int thang, int nam, int quy)

@@ -96,8 +96,8 @@ namespace website_ban_o_to.admin
                         lblDangXuLy.Text = reader["DangXuLy"].ToString();
                         lblDaGiao.Text = reader["DaGiao"].ToString();
                         lblDaHuy.Text = reader["DaHuy"].ToString();
-                        lblTongDoanhThu.Text = string.Format("{0:N0} VNĐ", reader["TongDoanhThu"]);
-                        lblDoanhThuThanhCong.Text = string.Format("{0:N0} VNĐ", reader["DoanhThuThanhCong"]);
+                        lblTongDoanhThu.Text = string.Format("{0:N0} triệu", reader["TongDoanhThu"]);
+                        lblDoanhThuThanhCong.Text = string.Format("{0:N0} triệu", reader["DoanhThuThanhCong"]);
                     }
                     reader.Close();
 

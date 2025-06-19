@@ -237,7 +237,16 @@ namespace website_ban_o_to
                 // Clear failed login attempts
                 ClearFailedLoginAttempts(user.Username);
 
-                // Store user in session (without password)
+                // ============= CẬP NHẬT SESSION CHO MENU =============
+                // Store user information in session for menu control
+                Session["UserID"] = user.UserID;
+                Session["Username"] = user.Username;
+                Session["FullName"] = user.FullName;
+                Session["Email"] = user.Email;
+                Session["Role"] = user.Role;
+                Session["isAdmin"] = user.IsAdmin;
+
+                // Store complete user object
                 var sessionUser = new User
                 {
                     UserID = user.UserID,
@@ -254,22 +263,73 @@ namespace website_ban_o_to
 
                 Session[SESSION_USER] = sessionUser;
 
+            
                 // Store session tracking for single login enforcement
                 Application[$"User_{user.UserID}_SessionID"] = Session.SessionID;
 
                 // Update last login time
                 UpdateLastLoginTime(user.UserID);
 
-                LogMessage($"User logged in successfully: {user.Username} (Role: {user.Role})");
+                LogMessage($"User logged in successfully: {user.Username} (Role: {user.Role}, IsAdmin: {user.IsAdmin})");
 
-                // Redirect based on role
-                RedirectUserAfterLogin(user);
+                // ============= HIỂN THỊ THÔNG BÁO THÀNH CÔNG =============
+                ShowSuccess($"Đăng nhập thành công! Chào mừng {user.FullName}");
+
+                // Delay redirect để user thấy thông báo
+                string script = $@"
+                    setTimeout(function() {{
+                        window.location.href = '{GetRedirectUrl(user)}';
+                    }}, 1500);";
+
+                ScriptManager.RegisterStartupScript(this, GetType(), "LoginSuccess", script, true);
             }
             catch (Exception ex)
             {
                 LogError("ProcessSuccessfulLogin", ex);
                 ShowError("Đăng nhập thành công nhưng có lỗi trong quá trình xử lý. Vui lòng thử lại!");
             }
+        }
+
+        private void CreateRememberMeCookie(User user)
+        {
+            try
+            {
+                HttpCookie userCookie = new HttpCookie("UserLogin");
+                userCookie["UserID"] = user.UserID.ToString();
+                userCookie["Username"] = user.Username;
+                userCookie["FullName"] = user.FullName;
+                userCookie["IsAdmin"] = user.IsAdmin.ToString();
+                userCookie.Expires = DateTime.Now.AddDays(30); // Remember for 30 days
+                userCookie.HttpOnly = true; // Security: prevent XSS access
+                userCookie.Secure = Request.IsSecureConnection; // HTTPS only if available
+
+                Response.Cookies.Add(userCookie);
+                LogMessage($"Remember me cookie created for user: {user.Username}");
+            }
+            catch (Exception ex)
+            {
+                LogError("CreateRememberMeCookie", ex);
+                // Don't fail login if cookie creation fails
+            }
+        }
+
+        private string GetRedirectUrl(User user)
+        {
+            string redirectUrl = "~/trangchu1.aspx"; // Default
+
+            if (user.IsAdmin || user.Role.Equals("Admin", StringComparison.OrdinalIgnoreCase))
+            {
+                redirectUrl = "~/admin/quanly1.aspx";
+            }
+
+            // Check if there's a return URL
+            string returnUrl = Request.QueryString["ReturnUrl"];
+            if (!string.IsNullOrEmpty(returnUrl) && IsValidReturnUrl(returnUrl))
+            {
+                redirectUrl = returnUrl;
+            }
+
+            return ResolveUrl(redirectUrl);
         }
 
         private void ProcessFailedLogin(string username)
@@ -305,27 +365,6 @@ namespace website_ban_o_to
                 LogError("ProcessFailedLogin", ex);
                 ShowError("Tên đăng nhập hoặc mật khẩu không đúng!");
             }
-        }
-
-        private void RedirectUserAfterLogin(User user)
-        {
-            string redirectUrl = "~/trangchu1.aspx"; // Default
-
-            if (user.IsAdmin || user.Role.Equals("Admin", StringComparison.OrdinalIgnoreCase))
-            {
-                redirectUrl = "~/admin/quanly1.aspx";
-            }
-          
-
-            // Check if there's a return URL
-            string returnUrl = Request.QueryString["ReturnUrl"];
-            if (!string.IsNullOrEmpty(returnUrl) && IsValidReturnUrl(returnUrl))
-            {
-                redirectUrl = returnUrl;
-            }
-
-            LogMessage($"Redirecting user {user.Username} to: {redirectUrl}");
-            Response.Redirect(redirectUrl, false);
         }
 
         private bool IsValidReturnUrl(string returnUrl)
@@ -435,10 +474,63 @@ namespace website_ban_o_to
             }
         }
 
+        private void ShowSuccess(string message)
+        {
+            try
+            {
+                if (lblError != null)
+                {
+                    lblError.Text = message;
+                    lblError.Visible = true;
+                    lblError.CssClass = "alert alert-success";
+                }
+
+                LogMessage($"Success message shown to user: {message}");
+            }
+            catch (Exception ex)
+            {
+                LogError("ShowSuccess", ex);
+            }
+        }
+
         protected bool IsUserLoggedIn()
         {
-            User currentUser = Session[SESSION_USER] as User;
-            return currentUser != null && currentUser.IsActive;
+            // Check session first
+            if (Session["UserID"] != null)
+                return true;
+
+            // Check cookie if session is empty
+            if (Request.Cookies["UserLogin"] != null)
+            {
+                var userCookie = Request.Cookies["UserLogin"];
+                if (!string.IsNullOrEmpty(userCookie.Value))
+                {
+                    // Restore session from cookie
+                    RestoreSessionFromCookie(userCookie);
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private void RestoreSessionFromCookie(HttpCookie userCookie)
+        {
+            try
+            {
+                Session["UserID"] = userCookie["UserID"];
+                Session["Username"] = userCookie["Username"];
+                Session["FullName"] = userCookie["FullName"];
+                Session["isAdmin"] = bool.Parse(userCookie["IsAdmin"] ?? "false");
+
+                LogMessage($"Session restored from cookie for user: {userCookie["Username"]}");
+            }
+            catch (Exception ex)
+            {
+                LogError("RestoreSessionFromCookie", ex);
+                // Clear invalid cookie
+                ClearLoginCookie();
+            }
         }
 
         protected User GetCurrentUser()
@@ -453,7 +545,20 @@ namespace website_ban_o_to
             {
                 if (currentUser.IsAdmin)
                 {
-                    Response.Redirect("~/admin/quanlyuser1.aspx", false);
+                    Response.Redirect("~/admin/quanly1.aspx", false);
+                }
+                else
+                {
+                    Response.Redirect("~/trangchu1.aspx", false);
+                }
+            }
+            else if (Session["UserID"] != null)
+            {
+                // Basic redirect if only basic session info available
+                bool isAdmin = Session["isAdmin"] != null && (bool)Session["isAdmin"];
+                if (isAdmin)
+                {
+                    Response.Redirect("~/admin/quanly1.aspx", false);
                 }
                 else
                 {
@@ -478,17 +583,22 @@ namespace website_ban_o_to
                 Session.Clear();
                 Session.Abandon();
 
-                // Clear any remember me cookies
-                HttpCookie loginCookie = new HttpCookie("RememberLogin");
-                loginCookie.Expires = DateTime.Now.AddDays(-1);
-                Response.Cookies.Add(loginCookie);
+                // Clear remember me cookies
+                ClearLoginCookie();
 
-                Response.Redirect("~/dangnhap1.aspx", false);
+                Response.Redirect("~/dangnhap1.aspx?logout=success", false);
             }
             catch (Exception ex)
             {
                 LogError("Logout", ex);
             }
+        }
+
+        private void ClearLoginCookie()
+        {
+            HttpCookie userCookie = new HttpCookie("UserLogin");
+            userCookie.Expires = DateTime.Now.AddDays(-1);
+            Response.Cookies.Add(userCookie);
         }
 
         private void LogMessage(string message)
