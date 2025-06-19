@@ -43,7 +43,18 @@ namespace website_ban_o_to.admin
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string sql = @"SELECT CarID, CarName, Price, IsDisplay, CreatedDate FROM Cars WHERE IsDisplay = 1 ORDER BY CreatedDate DESC";
+                    string sql = @"
+                SELECT 
+                    c.CarID, 
+                    c.CarName, 
+                    c.Price, 
+                    c.IsDisplay, 
+                    c.CreatedDate,
+                    COALESCE(ci.ImagePath, '~/images/no-image.png') as ImagePath
+                FROM Cars c 
+                LEFT JOIN CarImages ci ON c.CarID = ci.CarID AND ci.IsMain = 1
+                WHERE c.IsDisplay = 1 
+                ORDER BY c.CreatedDate DESC";
 
                     using (SqlCommand cmd = new SqlCommand(sql, conn))
                     using (SqlDataReader reader = cmd.ExecuteReader())
@@ -57,7 +68,7 @@ namespace website_ban_o_to.admin
                                 Price = Convert.ToDecimal(reader["Price"]),
                                 IsDisplay = Convert.ToBoolean(reader["IsDisplay"]),
                                 CreatedDate = Convert.ToDateTime(reader["CreatedDate"]),
-                                ImagePath = "~/images/no-image.png" // Default image path
+                                ImagePath = reader["ImagePath"].ToString()
                             });
                         }
                     }
@@ -69,7 +80,6 @@ namespace website_ban_o_to.admin
             }
             return cars;
         }
-
         private Car GetCarById(int carId)
         {
             try
@@ -224,7 +234,6 @@ namespace website_ban_o_to.admin
                 conn.Open();
                 string sql = @"UPDATE Cars SET CarName = @CarName, Price = @Price, Description = @Description, 
                               IsDisplay = @IsDisplay, UpdatedDate = @UpdatedDate WHERE CarID = @CarID";
-
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@CarID", car.CarID);
@@ -235,9 +244,62 @@ namespace website_ban_o_to.admin
                     cmd.Parameters.AddWithValue("@UpdatedDate", DateTime.Now);
                     cmd.ExecuteNonQuery();
                 }
+                 
             }
         }
+        private void CarImages(int carID, string imagePath, string imageName = null, bool isMain = false)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
 
+                // Kiểm tra xem carID đã tồn tại trong CarImages chưa
+                var checkQuery = @"SELECT COUNT(*) FROM CarImages WHERE CarID = @CarID";
+
+                using (SqlCommand checkCmd = new SqlCommand(checkQuery, conn))
+                {
+                    checkCmd.Parameters.AddWithValue("@CarID", carID);
+                    int count = (int)checkCmd.ExecuteScalar();
+
+                    if (count == 0)
+                    {
+                        // Chưa có -> Thêm mới
+                        var insertQuery = @"INSERT INTO CarImages (CarID, ImagePath, ImageName, IsMain, CreatedDate) 
+                                   VALUES (@CarID, @ImagePath, @ImageName, @IsMain, @CreatedDate)";
+
+                        using (SqlCommand insertCmd = new SqlCommand(insertQuery, conn))
+                        {
+                            insertCmd.Parameters.AddWithValue("@CarID", carID);
+                            insertCmd.Parameters.AddWithValue("@ImagePath", imagePath);
+                            insertCmd.Parameters.AddWithValue("@ImageName", imageName ?? "");
+                            insertCmd.Parameters.AddWithValue("@IsMain", isMain);
+                            insertCmd.Parameters.AddWithValue("@CreatedDate", DateTime.Now);
+
+                            insertCmd.ExecuteNonQuery();
+                        }
+                    }
+                    else
+                    {
+                        // Đã có -> Cập nhật
+                        var updateQuery = @"UPDATE CarImages 
+                                   SET ImagePath = @ImagePath, 
+                                       ImageName = @ImageName, 
+                                       IsMain = @IsMain 
+                                   WHERE CarID = @CarID";
+
+                        using (SqlCommand updateCmd = new SqlCommand(updateQuery, conn))
+                        {
+                            updateCmd.Parameters.AddWithValue("@CarID", carID);
+                            updateCmd.Parameters.AddWithValue("@ImagePath", imagePath);
+                            updateCmd.Parameters.AddWithValue("@ImageName", imageName ?? "");
+                            updateCmd.Parameters.AddWithValue("@IsMain", isMain);
+
+                            updateCmd.ExecuteNonQuery();
+                        }
+                    }
+                }
+            }
+        }
         protected void btnHuy_Click(object sender, EventArgs e)
         {
             HideAllPanels();
@@ -264,7 +326,11 @@ namespace website_ban_o_to.admin
 
                 TextBox txtTenXeEdit = (TextBox)gvXe.Rows[e.RowIndex].FindControl("txtTenXe");
                 TextBox txtGiaEdit = (TextBox)gvXe.Rows[e.RowIndex].FindControl("txtGia");
-
+                string imagePath = "";
+                if (fuHinhAnhTinTuc.HasFile)
+                {
+                    imagePath = SaveNewsImage();
+                }
                 if (txtTenXeEdit != null && txtGiaEdit != null)
                 {
                     Car car = GetCarById(carId);
@@ -273,6 +339,7 @@ namespace website_ban_o_to.admin
                         car.CarName = txtTenXeEdit.Text.Trim();
                         car.Price = Convert.ToDecimal(txtGiaEdit.Text.Trim());
                         UpdateCar(car);
+                        CarImages(carId, imagePath, car.CarName,true);
                         ShowMessage("Cập nhật thành công!");
                     }
                 }
