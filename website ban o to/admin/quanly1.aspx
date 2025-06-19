@@ -23,7 +23,7 @@
         </div>
 
         <!-- Danh sách xe -->
-        <asp:GridView ID="gvXe" runat="server" AutoGenerateColumns="False" DataKeyNames="ID"
+        <asp:GridView ID="gvXe" runat="server" AutoGenerateColumns="False" DataKeyNames="CarID"
             CssClass="admin-grid" AllowPaging="True" PageSize="10"
             OnPageIndexChanging="gvXe_PageIndexChanging"
             OnRowEditing="gvXe_RowEditing"
@@ -31,32 +31,32 @@
             OnRowCancelingEdit="gvXe_RowCancelingEdit"
             OnRowDeleting="gvXe_RowDeleting" OnSelectedIndexChanged="gvXe_SelectedIndexChanged">
             <Columns>
-                <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" />
+                <asp:BoundField DataField="CarID" HeaderText="ID" ReadOnly="True" />
                 <asp:TemplateField HeaderText="Tên xe">
                     <ItemTemplate>
-                        <asp:Label ID="lblTenXe" runat="server" Text='<%# Eval("TenXe") %>' />
+                        <asp:Label ID="lblTenXe" runat="server" Text='<%# Eval("CarName") %>' />
                     </ItemTemplate>
                     <EditItemTemplate>
-                        <asp:TextBox ID="txtTenXe" runat="server" Text='<%# Bind("TenXe") %>' CssClass="form-control" />
+                        <asp:TextBox ID="txtTenXe" runat="server" Text='<%# Bind("CarName") %>' CssClass="form-control" />
                     </EditItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Giá (triệu)">
                     <ItemTemplate>
-                        <asp:Label ID="lblGia" runat="server" Text='<%# Eval("Gia", "{0:N0}") %>' />
+                        <asp:Label ID="lblGia" runat="server" Text='<%# Eval("Price", "{0:N0}") %>' />
                     </ItemTemplate>
                     <EditItemTemplate>
-                        <asp:TextBox ID="txtGia" runat="server" Text='<%# Bind("Gia") %>' CssClass="form-control" />
+                        <asp:TextBox ID="txtGia" runat="server" Text='<%# Bind("Price") %>' CssClass="form-control" />
                     </EditItemTemplate>
                 </asp:TemplateField>
                 <asp:TemplateField HeaderText="Hình ảnh">
                     <ItemTemplate>
-                        <asp:Image ID="imgXe" runat="server" ImageUrl='<%# Eval("HinhAnh") %>' Width="100px" />
+                        <asp:Image ID="imgXe" runat="server" ImageUrl='<%# Eval("ImagePath") ?? "~/images/no-image.png" %>' Width="100px" />
                     </ItemTemplate>
                     <EditItemTemplate>
                         <asp:FileUpload ID="fuHinhAnh" runat="server" CssClass="form-control" />
                     </EditItemTemplate>
                 </asp:TemplateField>
-                <asp:CheckBoxField DataField="TrangThai" HeaderText="Hiển thị" />
+                <asp:CheckBoxField DataField="IsDisplay" HeaderText="Hiển thị" />
                 <asp:CommandField ShowEditButton="True" ButtonType="Button" />
                 <asp:CommandField ShowDeleteButton="True" ButtonType="Button" />
             </Columns>

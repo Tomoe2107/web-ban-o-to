@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -11,31 +12,13 @@ namespace website_ban_o_to.admin
 {
     public partial class quanlyuser1 : System.Web.UI.Page
     {
-        private string connectionString = "Data Source=DESKTOP-NMTRDC3\\MSSQLSERVER01;Initial Catalog=BanOto;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True";
+        private string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"]?.ConnectionString;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                // Kiểm tra session thay vì User.Identity
-                if (Session["IsLoggedIn"] == null || !Convert.ToBoolean(Session["IsLoggedIn"]))
-                {
-                    Response.Redirect("~/dangnhap1.aspx");
-                    return;
-                }
-
-                // Kiểm tra quyền admin từ session
-                bool isAdmin = Session["IsAdmin"] != null && Convert.ToBoolean(Session["IsAdmin"]);
-                string role = Session["Role"]?.ToString();
-
-                if (!isAdmin && role != "Admin")
-                {
-                    Response.Write("<script>alert('Bạn không có quyền truy cập trang này!'); window.location='~/trangchu1.aspx';</script>");
-                    return;
-                }
-
-                // Debug log
-                System.Diagnostics.Debug.WriteLine($"User access granted - Role: {role}, IsAdmin: {isAdmin}");
+      
 
                 BindGridView();
             }

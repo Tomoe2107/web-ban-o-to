@@ -24,7 +24,7 @@
                 <asp:GridView ID="gvUsers" runat="server" AutoGenerateColumns="False" DataKeyNames="ID"
                     CssClass="admin-grid" AllowPaging="True" PageSize="10" OnPageIndexChanging="gvUsers_PageIndexChanging"
                     OnRowEditing="gvUsers_RowEditing" OnRowUpdating="gvUsers_RowUpdating" OnRowCancelingEdit="gvUsers_RowCancelingEdit"
-                    OnRowDeleting="gvUsers_RowDeleting">
+                    OnRowDeleting="gvUsers_RowDeleting"> 
                     <Columns>
                         <asp:BoundField DataField="ID" HeaderText="ID" ReadOnly="True" />
                         <asp:TemplateField HeaderText="Tên đăng nhập">

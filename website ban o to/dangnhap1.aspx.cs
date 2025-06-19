@@ -313,12 +313,9 @@ namespace website_ban_o_to
 
             if (user.IsAdmin || user.Role.Equals("Admin", StringComparison.OrdinalIgnoreCase))
             {
-                redirectUrl = "~/admin/quanlyuser1.aspx";
+                redirectUrl = "~/admin/quanly1.aspx";
             }
-            else if (user.Role.Equals("Manager", StringComparison.OrdinalIgnoreCase))
-            {
-                redirectUrl = "~/manager/dashboard.aspx";
-            }
+          
 
             // Check if there's a return URL
             string returnUrl = Request.QueryString["ReturnUrl"];
